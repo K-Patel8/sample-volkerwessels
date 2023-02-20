@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13729034700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User verify VolkerWessels homepage",
+        "description": "",
+        "id": "volkerwessels-sample-test;user-verify-volkerwessels-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 1261675400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 341724400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on VolkerWessels main page",
+            "match": {
+              "location": "MyStepdefs.userIsOnVolkerWesselsMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3872928800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hovers mouse on WHAT WE DO tab and user click on Rail Infrastructure option",
+            "match": {
+              "location": "MyStepdefs.userHoversMouseOnWHATWEDOTabAndUserClickOnRailInfrastructureOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41485400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is successfully navigated to Rail Infrastructure project",
+            "match": {
+              "location": "MyStepdefs.userIsSuccessfullyNavigatedToRailInfrastructureProject()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6341056000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User lists out inside WHAT WE DO tasks and print them",
+        "description": "",
+        "id": "volkerwessels-sample-test;user-lists-out-inside-what-we-do-tasks-and-print-them",
+        "after": [
+          {
+            "result": {
+              "duration": 1182460500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on VolkerWessels main page",
+            "match": {
+              "location": "MyStepdefs.userIsOnVolkerWesselsMainPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96800500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user hovers mouse on WHAT WE DO tab and checks how many tasks are there",
+            "match": {
+              "location": "MyStepdefs.userHoversMouseOnWHATWEDOTabAndChecksHowManyTasksAreThere()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4459896500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is successfully prints the list of tasks",
+            "match": {
+              "location": "MyStepdefs.userIsSuccessfullyPrintsTheListOfTasks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "VolkerWessels Sample Test",
+    "description": "As a candidate I am showing interviewer my framework",
+    "id": "volkerwessels-sample-test",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  }
+]
